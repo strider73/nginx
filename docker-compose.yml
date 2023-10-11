@@ -5,7 +5,10 @@ services:
     restart: unless-stopped
     ports:
       # These ports are in format <host-port>:<container-port>
-      # - '80:80' # Public HTTP Port
+      # port 80 need to be opened in order to issue https certification !!!!
+      # it tooks me 3 day to solve the reason of failing to issue the certification for https and it was port 80
+      # and that port also need to be opend in internet gateway which is 192.168.1.1  virtual server .
+      - '80:80' # Public HTTP Port
       - '443:443' # Public HTTPS Port
       - '81:81' # Admin Web Port
       # Add any other Stream port you want to expose

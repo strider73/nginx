@@ -1,6 +1,14 @@
 https://nginxproxymanager.com/setup/#running-the-app
 
 
+In order to issue the https certification 
+
+ port 80 need to be opened in order to issue https certification !!!!
+ it tooks me 3 day to solve the reason of failing to issue the certification for https and it was port 80
+ and that port also need to be opend in internet gateway which is 192.168.1.1  virtual server .
+      - '80:80' # Public HTTP Port
+
+
 Using MySQL / MariaDB Database
 If you opt for the MySQL configuration you will have to provide the database server yourself. You can also use MariaDB. Here are the minimum supported versions:
 
