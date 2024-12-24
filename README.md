@@ -8,6 +8,18 @@ In order to issue the https certification
  and that port also need to be opend in internet gateway which is 192.168.1.1  virtual server .
       - '80:80' # Public HTTP Port
 
+example  24.DEC.2024 
+![image desc](./img/Screenshot%202024-12-24%20at%206.50.45 pm.png)
+
+as  you can see there is expired cetification error with red color like adventuretube.net 
+when yopu try to access the address .
+ 
+you will face this error 
+[!image desc](./img/Screenshot%202024-12-24%20at%206.53.18 pm.png)
+
+
+
+
 
 Using MySQL / MariaDB Database
 If you opt for the MySQL configuration you will have to provide the database server yourself. You can also use MariaDB. Here are the minimum supported versions:
