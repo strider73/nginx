@@ -55,7 +55,7 @@ If you encounter an **SSL certification error** (e.g., expired certificates), en
 
 ### **Example Expired Certificate Error**  
 If your SSL certificates appear in red, like below, they have expired:  
-![SSL Certificate Error](./img/Screenshot_2024-12-24_18-53-18.png)
+![SSL Certificate Error](./img/Screenshot 2024-12-24 at 6.53.18 pm.png)
 
 To renew, go to **Nginx Proxy Manager > SSL Certificates** and manually reissue the certificate or set up **auto-renewal**.  
 
