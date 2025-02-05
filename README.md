@@ -1,7 +1,3 @@
-To update your `README.md` file in your **nginx** repository, I will include the latest proxy settings from the third screenshot, correct outdated information, and ensure everything is clear and structured properly. Here's an updated version of your `README.md`:  
-
----
-
 # **Nginx Proxy Manager Setup & SSL Configuration**  
 
 ## **1. Setup and Configuration**  
